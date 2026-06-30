@@ -1,0 +1,40 @@
+{
+  "results": {
+    "Naive Bayes": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "train_time_sec": 0.001
+    },
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "train_time_sec": 0.004
+    },
+    "Linear SVM": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "train_time_sec": 0.007
+    },
+    "Random Forest": {
+      "accuracy": 0.9,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1_score": 0.8889,
+      "train_time_sec": 0.132
+    },
+    "XGBoost": {
+      "accuracy": 0.7,
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1_score": 0.6667,
+      "train_time_sec": 0.029
+    }
+  },
+  "best_model": "Naive Bayes"
+}
